@@ -1,0 +1,13 @@
+11:47:38.821 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - *** STARTING TC_003_CorporateWellness_InvalidDetails TESTCASE ***
+11:47:38.928 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the Corporates link
+11:47:44.677 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Then navigated to wellness plans option
+11:47:45.006 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the name
+11:47:45.123 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the orginization name
+11:47:45.219 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the contact number
+11:47:45.324 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the valid email address
+11:47:45.719 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "<500" option the from the orginization size dropdown
+11:47:46.093 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "Taking a demo" option the from the orginization size dropdown
+11:47:46.118 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Schedule button is enabled
+11:47:46.208 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the schedule button
+11:47:52.210 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Capturing the details from the thank you modal
+11:47:54.201 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Successfully captured the details from the thank you modal

@@ -35,7 +35,6 @@ public class CorporateWellnessPage extends BasePage {
 	@FindBy(xpath = "//header[@id='header']//select[@id='interestedIn']")
 	WebElement selectOption2;
 
-//    @FindBy(xpath = "//header[@id='header']//button[@type='submit'][normalize-space()='Schedule a demo']")
 	@FindBy(xpath = "//header[@id='header']//button[@type='submit'][normalize-space()='Schedule a demo']")
 	WebElement scheduleButton;
 

@@ -23,6 +23,7 @@ public class TC_001_SearchingDentists extends BaseClass {
 
 	@Test(priority = 1)
 	public void searchingDentists() throws InterruptedException, IOException {
+		logger.info("*** STARTING TC_001_SearchingDentists TESTCASE ***");
 		try {
 
 			takeSnapshot(driver, "HomePage");
@@ -30,13 +31,16 @@ public class TC_001_SearchingDentists extends BaseClass {
 			hp.setLocSearchBox().click();
 			hp.setLocSearchBox().clear();
 			hp.setLocSearchBox().sendKeys("Bangalor");
+			
 			Thread.sleep(1000);
 			hp.getBangaloreCity().click();
 			hp.setTypeSearchBox().click();
 			hp.setTypeSearchBox().sendKeys("Dentist");
 			hp.setDentistType().click();
+			logger.info("Searching for dentists in Bangalore");
 		} catch (Exception e) {
 			Assert.fail();
+			logger.fatal("Failed to search dentists in Bangalore");
 			System.out.println("searchingDentists test Failed: " + e.getMessage());
 		}
 	}
@@ -44,8 +48,9 @@ public class TC_001_SearchingDentists extends BaseClass {
 	@Test(dependsOnMethods = "searchingDentists")
 	public void gettingDentists() throws InterruptedException, IOException {
 		try {
-
+			logger.info("Now in the dentist page");
 			DentistPage dp = new DentistPage(driver);
+			logger.info("Applying filters");
 			dp.getPatientStoriesFilter().click();
 			Thread.sleep(1000);
 			dp.getPatientStoriesOptionOne().click();
@@ -64,7 +69,9 @@ public class TC_001_SearchingDentists extends BaseClass {
 			Thread.sleep(2000);
 			dp.getRelevanceFilter().click();
 			dp.getRelevanceOptionTwo().click();
+			logger.info("Applied all the required filters");
 			takeSnapshot(driver, "Dentists_Page");
+			logger.info("Get the data of top 5 dentists");
 			String totalDentists = dp.getTotalDoctors().getText();
 			System.out.println(totalDentists);
 			System.out.println("All the Available Doctors");
@@ -98,9 +105,10 @@ public class TC_001_SearchingDentists extends BaseClass {
 				System.out.println();
 			}
 		} catch (Exception e) {
+			logger.fatal("Failed to get the details of the dentists");
 			System.out.println("gettingDentists test is failed" + e.getMessage());
 			Assert.fail();
 		}
-
+		logger.info("*** FINISHED TC_001_SearchingDentists TESTCASE ***");
 	}
 }
