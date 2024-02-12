@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T10:11:33 IST" name="Suite" finished-at="2024-02-08T10:12:25 IST" duration-ms="51851">
+  <suite started-at="2024-02-12T09:40:59 IST" name="Suite" finished-at="2024-02-12T09:41:29 IST" duration-ms="30065">
     <groups>
     </groups>
-    <test started-at="2024-02-08T10:11:33 IST" name="chromeTest" finished-at="2024-02-08T10:12:25 IST" duration-ms="51851">
-      <class name="testCases.TC_001_SearchingDentists">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_SearchingDentists@3fc2959f]" started-at="2024-02-08T10:11:33 IST" name="setup" finished-at="2024-02-08T10:11:45 IST" duration-ms="11177" status="PASS">
+    <test started-at="2024-02-12T09:40:59 IST" name="chromeTest" finished-at="2024-02-12T09:41:29 IST" duration-ms="30065">
+      <class name="testCases.TC_003_CorporateWellness_ValidDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_CorporateWellness_ValidDetails@1f2586d6]" started-at="2024-02-12T09:41:00 IST" name="setup" finished-at="2024-02-12T09:41:10 IST" duration-ms="10095" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchingDentists()[pri:1, instance:testCases.TC_001_SearchingDentists@3fc2959f]" started-at="2024-02-08T10:11:45 IST" name="searchingDentists" finished-at="2024-02-08T10:11:54 IST" duration-ms="9314" status="PASS">
+        <test-method signature="checkingValidDetails()[pri:0, instance:testCases.TC_003_CorporateWellness_ValidDetails@1f2586d6]" started-at="2024-02-12T09:41:10 IST" name="checkingValidDetails" finished-at="2024-02-12T09:41:29 IST" duration-ms="18777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchingDentists -->
-        <test-method signature="gettingDentists()[pri:0, instance:testCases.TC_001_SearchingDentists@3fc2959f]" started-at="2024-02-08T10:11:54 IST" name="gettingDentists" finished-at="2024-02-08T10:12:25 IST" depends-on-methods="testCases.TC_001_SearchingDentists.searchingDentists" duration-ms="30959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettingDentists -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_SearchingDentists@3fc2959f]" started-at="2024-02-08T10:12:25 IST" name="tearDown" finished-at="2024-02-08T10:12:25 IST" duration-ms="294" status="PASS">
+        </test-method> <!-- checkingValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_CorporateWellness_ValidDetails@1f2586d6]" started-at="2024-02-12T09:41:29 IST" name="tearDown" finished-at="2024-02-12T09:41:29 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_SearchingDentists -->
+      </class> <!-- testCases.TC_003_CorporateWellness_ValidDetails -->
     </test> <!-- chromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

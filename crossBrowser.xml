@@ -6,6 +6,7 @@
 	</listeners>
 	<test thread-count="5" name="chromeTest">
 		<parameter name="browser" value="Chrome" />
+		<parameter name="os" value="windows" />
 		<classes>
 			<class name="testCases.TC_001_SearchingDentists" />
 			<class name="testCases.TC_002_Surgeries" />
@@ -15,6 +16,7 @@
 	</test> <!-- Test -->
 	<test thread-count="5" name="edgeTest">
 		<parameter name="browser" value="Edge" />
+		<parameter name="os" value="windows" />
 		<classes>
 			<class name="testCases.TC_001_SearchingDentists" />
 			<class name="testCases.TC_002_Surgeries" />

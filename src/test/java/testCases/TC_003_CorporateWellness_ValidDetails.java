@@ -36,15 +36,15 @@ public class TC_003_CorporateWellness_ValidDetails extends BaseClass {
 				System.out.println("Schedule button is enabled!");
 			}
 			cw.getScheduleButton().click();
-			Thread.sleep(10000);
+			Thread.sleep(6000);
 
-			if (cw.getThankYouModal()) {
+//			if (cw.getThankYouModal()) {
 				takeSnapshot(driver, "Valid details");
 				String heading = cw.getThankYou();
 				String paragraph = cw.getThankYouParagraph();
 				System.out.println(heading);
 				System.out.println(paragraph);
-			}
+//			}
 		} catch (Exception e) {
 			System.out.println("TC_003_CorporateWellness_ValidDetails failed "+e.getMessage());
 			Assert.fail();
