@@ -16,7 +16,7 @@ import pageObjects.SurgeriesPage;
 import testBase.BaseClass;
 
 public class TC_002_Surgeries extends BaseClass {
-	@Test(priority = 1)
+	@Test(priority = 1, groups = { "sanity" })
 	public void topSurgeries() throws IOException, InterruptedException {
 		logger.info("*** STARTING TC_002_Surgeries TESTCASE ***");
 		try {
@@ -48,7 +48,7 @@ public class TC_002_Surgeries extends BaseClass {
 		}
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, groups = { "sanity" })
 	public void generalSurgeries() throws IOException {
 		try {
 			
@@ -74,7 +74,7 @@ public class TC_002_Surgeries extends BaseClass {
 		}
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, groups = { "sanity" })
 	public void practologySurgeries() throws IOException {
 		try {
 			
@@ -99,7 +99,7 @@ public class TC_002_Surgeries extends BaseClass {
 		}
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 4, groups = { "sanity" })
 	public void ophtomologySurgeries() throws IOException {
 		try {
 			
@@ -124,7 +124,7 @@ public class TC_002_Surgeries extends BaseClass {
 		}
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 5, groups = { "sanity" })
 	public void urologySurgeries() throws IOException {
 		try {
 			SurgeriesPage sp = new SurgeriesPage(driver);
@@ -149,7 +149,7 @@ public class TC_002_Surgeries extends BaseClass {
 		}
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 6, groups = { "sanity" })
 	public void cosmeticSurgeries() throws IOException {
 		try {
 			SurgeriesPage sp = new SurgeriesPage(driver);
@@ -174,7 +174,7 @@ public class TC_002_Surgeries extends BaseClass {
 		}
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, groups = { "sanity" })
 	public void orthopedicSurgeries() throws IOException {
 		try {
 			SurgeriesPage sp = new SurgeriesPage(driver);

@@ -35,7 +35,7 @@ public class BaseClass {
 	public Properties prop;
 	public Logger logger;
 
-	@BeforeClass
+	@BeforeClass(groups = { "sanity" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String browser) throws IOException {
 		// setting properties
@@ -93,7 +93,7 @@ public class BaseClass {
 		driver.get(prop.getProperty("url"));
 	}
 
-	@AfterClass
+	@AfterClass(groups = { "sanity" })
 	public void tearDown() {
 		driver.close();
 		driver = null;

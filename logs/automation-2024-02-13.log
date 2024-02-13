@@ -1,0 +1,46 @@
+09:58:08.680 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - *** STARTING TC_003_CorporateWellness_InvalidDetails TESTCASE ***
+09:58:08.879 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the Corporates link
+09:58:11.435 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Then navigated to wellness plans option
+09:58:11.832 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the name
+09:58:12.025 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the orginization name
+09:58:12.229 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the contact number
+09:58:12.440 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the valid email address
+09:58:13.073 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "<500" option the from the orginization size dropdown
+09:58:13.570 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "Taking a demo" option the from the orginization size dropdown
+09:58:13.632 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Schedule button is enabled
+09:58:13.860 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the schedule button
+09:58:19.872 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Capturing the details from the thank you modal
+09:58:30.585 [main] FATAL testCases.TC_003_CorporateWellness_ValidDetails - Failed to enter the valid details in the form
+09:58:42.732 [main] INFO  testCases.TC_002_Surgeries - *** STARTING TC_002_Surgeries TESTCASE ***
+09:58:42.752 [main] INFO  testCases.TC_002_Surgeries - Failed to get details of the top surgeries
+09:58:42.848 [main] FATAL testCases.TC_002_Surgeries - Failed to capture general surgeries details
+09:58:42.880 [main] FATAL testCases.TC_002_Surgeries - Failed to capture the Orthopedic surgeries details
+09:58:42.924 [main] FATAL testCases.TC_002_Surgeries - Failed to capture the Practology surgeries details
+09:58:42.947 [main] FATAL testCases.TC_002_Surgeries - Failed to capture the Ophtomology surgeries details
+09:58:42.993 [main] FATAL testCases.TC_002_Surgeries - Failed to capture the Urology surgeries details
+09:58:43.017 [main] FATAL testCases.TC_002_Surgeries - Failed to capture the Cosmetic surgeries details
+09:59:11.379 [main] INFO  testCases.TC_001_SearchingDentists - *** STARTING TC_001_SearchingDentists TESTCASE ***
+09:59:18.551 [main] INFO  testCases.TC_001_SearchingDentists - Searching for dentists in Bangalore
+09:59:19.104 [main] INFO  testCases.TC_001_SearchingDentists - Now in the dentist page
+09:59:19.117 [main] INFO  testCases.TC_001_SearchingDentists - Applying filters
+09:59:38.290 [main] INFO  testCases.TC_001_SearchingDentists - Applied all the required filters
+09:59:38.746 [main] INFO  testCases.TC_001_SearchingDentists - Get the data of top 5 dentists
+09:59:49.706 [main] INFO  testCases.TC_001_SearchingDentists - *** FINISHED TC_001_SearchingDentists TESTCASE ***
+10:00:02.022 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - *** STARTING TC_003_CorporateWellness_InvalidDetails TESTCASE ***
+10:00:02.173 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the Corporates link
+10:00:04.817 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Then navigated to wellness plans option
+10:00:05.071 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the name
+10:00:05.274 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the orginization name
+10:00:05.484 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the contact number
+10:00:05.692 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the valid email address
+10:00:06.144 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "<500" option the from the orginization size dropdown
+10:00:06.538 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "Taking a demo" option the from the orginization size dropdown
+10:00:06.575 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Schedule button is enabled
+10:00:06.716 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the schedule button
+10:00:12.727 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Capturing the details from the thank you modal
+10:00:23.375 [main] FATAL testCases.TC_003_CorporateWellness_ValidDetails - Failed to enter the valid details in the form
+10:00:42.445 [main] INFO  testCases.TC_002_Surgeries - *** STARTING TC_002_Surgeries TESTCASE ***
+10:00:46.086 [main] INFO  testCases.TC_002_Surgeries - Clicked on surgeries button
+10:00:47.832 [main] INFO  testCases.TC_002_Surgeries - Capturing the details of top surgeries
+10:00:48.869 [main] INFO  testCases.TC_002_Surgeries - Successfully captured the details of top surgeries
+10:00:48.870 [main] INFO  testCases.TC_002_Surgeries - Capturing the details of surgies from each department

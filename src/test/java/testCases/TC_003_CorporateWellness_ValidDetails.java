@@ -12,7 +12,7 @@ import testBase.BaseClass;
 import java.io.IOException;
 
 public class TC_003_CorporateWellness_ValidDetails extends BaseClass {
-	@Test
+	@Test(groups = { "sanity" })
 	public void checkingValidDetails() throws IOException, InterruptedException {
 		try {
 			logger.info("*** STARTING TC_003_CorporateWellness_InvalidDetails TESTCASE ***");

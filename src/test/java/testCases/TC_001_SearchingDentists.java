@@ -21,7 +21,7 @@ import utilities.ExcelUtility;
 
 public class TC_001_SearchingDentists extends BaseClass {
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups = { "sanity" })
 	public void searchingDentists() throws InterruptedException, IOException {
 		logger.info("*** STARTING TC_001_SearchingDentists TESTCASE ***");
 		try {
@@ -45,7 +45,7 @@ public class TC_001_SearchingDentists extends BaseClass {
 		}
 	}
 
-	@Test(dependsOnMethods = "searchingDentists")
+	@Test(dependsOnMethods = "searchingDentists", groups = { "sanity" })
 	public void gettingDentists() throws InterruptedException, IOException {
 		try {
 			logger.info("Now in the dentist page");

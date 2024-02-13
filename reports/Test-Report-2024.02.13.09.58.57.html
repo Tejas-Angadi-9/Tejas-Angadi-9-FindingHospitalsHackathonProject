@@ -8,7 +8,7 @@
 <title>Practo.com Test Report</title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
-<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
 <style type="text/css"></style></head><body class="spa -report dark">
@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Functional Testing</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 12, 2024 09:37:49 am</span></a>
+<a href="#"><span class="badge badge-primary">Feb 13, 2024 09:58:57 am</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -72,17 +77,23 @@
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">sanity</a>
+</ul>
+</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
         <li class="test-item"  status="pass" test-id="1"
           author=""
-          tag=""
+          tag="sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC_001_SearchingDentists</p>
             <p class="text-sm">
-              <span>9:38:10 am</span> / <span>00:00:00:238</span>
+              <span>9:59:18 am</span> / <span>00:00:00:518</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -91,13 +102,15 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC_001_SearchingDentists</h5>
-<span class='badge badge-success'>02.12.2024 9:38:10 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:10 am</span>
-<span class='badge badge-default'>00:00:00:238</span>
+<span class='badge badge-success'>02.13.2024 9:59:18 am</span>
+<span class='badge badge-danger'>02.13.2024 9:59:19 am</span>
+<span class='badge badge-default'>00:00:00:518</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+searchingDentists.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+searchingDentists.png">
@@ -109,7 +122,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:10 am</td>
+        <td>9:59:18 am</td>
         <td>
           searchingDentists got successfully executed
         </td>
@@ -121,12 +134,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag=""
+          tag="sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC_001_SearchingDentists</p>
             <p class="text-sm">
-              <span>9:38:34 am</span> / <span>00:00:00:187</span>
+              <span>9:59:49 am</span> / <span>00:00:00:339</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -135,13 +148,15 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC_001_SearchingDentists</h5>
-<span class='badge badge-success'>02.12.2024 9:38:34 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:35 am</span>
-<span class='badge badge-default'>00:00:00:187</span>
+<span class='badge badge-success'>02.13.2024 9:59:49 am</span>
+<span class='badge badge-danger'>02.13.2024 9:59:50 am</span>
+<span class='badge badge-default'>00:00:00:339</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+gettingDentists.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+gettingDentists.png">
@@ -153,7 +168,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:34 am</td>
+        <td>9:59:49 am</td>
         <td>
           gettingDentists got successfully executed
         </td>
@@ -163,366 +178,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="fail" test-id="3"
           author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:38:51 am</span> / <span>00:00:00:299</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:38:51 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:51 am</span>
-<span class='badge badge-default'>00:00:00:299</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+topSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+topSurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:51 am</td>
-        <td>
-          topSurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="4"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:38:52 am</span> / <span>00:00:00:568</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:38:52 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:53 am</span>
-<span class='badge badge-default'>00:00:00:568</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+generalSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+generalSurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:52 am</td>
-        <td>
-          generalSurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:38:54 am</span> / <span>00:00:00:340</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:38:54 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:54 am</span>
-<span class='badge badge-default'>00:00:00:340</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+orthopedicSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+orthopedicSurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:54 am</td>
-        <td>
-          orthopedicSurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="6"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:38:55 am</span> / <span>00:00:00:577</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:38:55 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:56 am</span>
-<span class='badge badge-default'>00:00:00:577</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+practologySurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+practologySurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:55 am</td>
-        <td>
-          practologySurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:38:57 am</span> / <span>00:00:00:441</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:38:57 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:57 am</span>
-<span class='badge badge-default'>00:00:00:441</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+ophtomologySurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+ophtomologySurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:57 am</td>
-        <td>
-          ophtomologySurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="8"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:38:58 am</span> / <span>00:00:00:415</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:38:58 am</span>
-<span class='badge badge-danger'>02.12.2024 9:38:59 am</span>
-<span class='badge badge-default'>00:00:00:415</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+urologySurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+urologySurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:38:58 am</td>
-        <td>
-          urologySurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="9"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_002_Surgeries</p>
-            <p class="text-sm">
-              <span>9:39:00 am</span> / <span>00:00:00:396</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
-<span class='badge badge-success'>02.12.2024 9:39:00 am</span>
-<span class='badge badge-danger'>02.12.2024 9:39:00 am</span>
-<span class='badge badge-default'>00:00:00:396</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+cosmeticSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+cosmeticSurgeries.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:39:00 am</td>
-        <td>
-          cosmeticSurgeries got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="10"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">testCases.TC_003_CorporateWellness_InvalidDetails</p>
-            <p class="text-sm">
-              <span>9:39:18 am</span> / <span>00:00:00:301</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">testCases.TC_003_CorporateWellness_InvalidDetails</h5>
-<span class='badge badge-success'>02.12.2024 9:39:18 am</span>
-<span class='badge badge-danger'>02.12.2024 9:39:18 am</span>
-<span class='badge badge-default'>00:00:00:301</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+checkingInvalidDetails.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+checkingInvalidDetails.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:39:18 am</td>
-        <td>
-          checkingInvalidDetails got successfully executed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="11"
-          author=""
-          tag=""
+          tag="sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC_003_CorporateWellness_ValidDetails</p>
             <p class="text-sm">
-              <span>9:39:49 am</span> / <span>00:00:00:600</span>
+              <span>10:00:23 am</span> / <span>00:00:00:513</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -531,13 +194,15 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">testCases.TC_003_CorporateWellness_ValidDetails</h5>
-<span class='badge badge-success'>02.12.2024 9:39:49 am</span>
-<span class='badge badge-danger'>02.12.2024 9:39:49 am</span>
-<span class='badge badge-default'>00:00:00:600</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+<span class='badge badge-success'>02.13.2024 10:00:23 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:23 am</span>
+<span class='badge badge-default'>00:00:00:513</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+checkingValidDetails.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+checkingValidDetails.png">
@@ -549,16 +214,384 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:39:49 am</td>
+        <td>10:00:23 am</td>
         <td>
           checkingValidDetails got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:39:49 am</td>
+        <td>10:00:23 am</td>
         <td>
           null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:00:48 am</span> / <span>00:00:00:679</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:00:48 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:49 am</span>
+<span class='badge badge-default'>00:00:00:679</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+topSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+topSurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:48 am</td>
+        <td>
+          topSurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:00:51 am</span> / <span>00:00:00:551</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:00:51 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:51 am</span>
+<span class='badge badge-default'>00:00:00:551</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+generalSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+generalSurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:51 am</td>
+        <td>
+          generalSurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:00:52 am</span> / <span>00:00:00:595</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:00:52 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:53 am</span>
+<span class='badge badge-default'>00:00:00:595</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+orthopedicSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+orthopedicSurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:52 am</td>
+        <td>
+          orthopedicSurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:00:54 am</span> / <span>00:00:00:688</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:00:54 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:55 am</span>
+<span class='badge badge-default'>00:00:00:688</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+practologySurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+practologySurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:54 am</td>
+        <td>
+          practologySurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:00:56 am</span> / <span>00:00:00:691</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:00:56 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:57 am</span>
+<span class='badge badge-default'>00:00:00:691</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+ophtomologySurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+ophtomologySurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:56 am</td>
+        <td>
+          ophtomologySurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:00:58 am</span> / <span>00:00:00:662</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:00:58 am</span>
+<span class='badge badge-danger'>02.13.2024 10:00:59 am</span>
+<span class='badge badge-default'>00:00:00:662</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+urologySurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+urologySurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:58 am</td>
+        <td>
+          urologySurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_002_Surgeries</p>
+            <p class="text-sm">
+              <span>10:01:00 am</span> / <span>00:00:00:652</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_002_Surgeries</h5>
+<span class='badge badge-success'>02.13.2024 10:01:00 am</span>
+<span class='badge badge-danger'>02.13.2024 10:01:01 am</span>
+<span class='badge badge-default'>00:00:00:652</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+cosmeticSurgeries.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+cosmeticSurgeries.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:00 am</td>
+        <td>
+          cosmeticSurgeries got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_003_CorporateWellness_InvalidDetails</p>
+            <p class="text-sm">
+              <span>10:01:24 am</span> / <span>00:00:00:458</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_003_CorporateWellness_InvalidDetails</h5>
+<span class='badge badge-success'>02.13.2024 10:01:24 am</span>
+<span class='badge badge-danger'>02.13.2024 10:01:25 am</span>
+<span class='badge badge-default'>00:00:00:458</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">sanity</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+checkingInvalidDetails.png' src="C:\Users\2303536\eclipse-workspace\FindingHospitalsHackathonProject\extentScreenshots\+checkingInvalidDetails.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:24 am</td>
+        <td>
+          checkingInvalidDetails got successfully executed
         </td>
       </tr>
   </tbody>
@@ -575,18 +608,139 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">sanity</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>sanity</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:59:18 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC_001_SearchingDentists</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:59:49 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC_001_SearchingDentists</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:00:23 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC_003_CorporateWellness_ValidDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:48 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:51 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:52 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:54 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:56 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:00:58 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:01:00 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TC_002_Surgeries</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:01:24 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC_003_CorporateWellness_InvalidDetails</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 12, 2024 09:37:49 am</h3>
+<h3>Feb 13, 2024 09:58:57 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 12, 2024 09:39:50 am</h3>
+<h3>Feb 13, 2024 10:01:25 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -656,10 +810,27 @@
 </div></div>
 <script>
 var timeline = {
-"testCases.TC_001_SearchingDentists":0.238,"testCases.TC_001_SearchingDentists":0.187,"testCases.TC_002_Surgeries":0.299,"testCases.TC_002_Surgeries":0.568,"testCases.TC_002_Surgeries":0.34,"testCases.TC_002_Surgeries":0.577,"testCases.TC_002_Surgeries":0.441,"testCases.TC_002_Surgeries":0.415,"testCases.TC_002_Surgeries":0.396,"testCases.TC_003_CorporateWellness_InvalidDetails":0.301,"testCases.TC_003_CorporateWellness_ValidDetails":0.6
+"testCases.TC_001_SearchingDentists":0.518,"testCases.TC_001_SearchingDentists":0.339,"testCases.TC_003_CorporateWellness_ValidDetails":0.513,"testCases.TC_002_Surgeries":0.679,"testCases.TC_002_Surgeries":0.551,"testCases.TC_002_Surgeries":0.595,"testCases.TC_002_Surgeries":0.688,"testCases.TC_002_Surgeries":0.691,"testCases.TC_002_Surgeries":0.662,"testCases.TC_002_Surgeries":0.652,"testCases.TC_003_CorporateWellness_InvalidDetails":0.458
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>sanity</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>90.909%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 <div class="col-lg-6 col-md-12 sysenv-container">
 <div class="card">
 <div class="card-header"><p>System/Environment</p></div>
@@ -685,6 +856,10 @@ var timeline = {
 <tr>
 <td>Browser</td>
 <td>edge</td>
+</tr>
+<tr>
+<td>Groups</td>
+<td>[sanity]</td>
 </tr>
 </tbody>
 </table></div>
@@ -722,6 +897,6 @@ infoEvents: 1
       </div>
     </div>
   </div>
-<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
 <script type="text/javascript"></script></body>
 </html>
