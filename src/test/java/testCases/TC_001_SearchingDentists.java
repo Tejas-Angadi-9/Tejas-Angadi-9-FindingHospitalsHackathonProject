@@ -88,9 +88,9 @@ public class TC_001_SearchingDentists extends BaseClass {
 
 			for (int i = 0; i < 5; i++) {
 				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].scrollIntoView()", dentistsNames.get(i));
-				Thread.sleep(1000);
+				js.executeScript("arguments[0].scrollIntoView()", dentistsExperience.get(i));
 				takeSnapshot(driver, "dentist" + (i + 1));
+				Thread.sleep(1000);
 
 				System.out.println("\nDoctor " + (i + 1));
 				System.out.println("Name: " + dentistsNames.get(i).getText());

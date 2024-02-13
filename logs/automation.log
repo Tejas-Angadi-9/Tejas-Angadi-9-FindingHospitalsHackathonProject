@@ -1,37 +1,13 @@
-10:00:49.929 [main] INFO  testCases.TC_002_Surgeries - Capturing general surgeries details
-10:00:51.043 [main] INFO  testCases.TC_002_Surgeries - Successfully captured general surgeries details
-10:00:51.851 [main] INFO  testCases.TC_002_Surgeries - Capturing Orthopedic surgeries details
-10:00:52.891 [main] INFO  testCases.TC_002_Surgeries - Successfully captured the Orthopedic surgeries details
-10:00:53.773 [main] INFO  testCases.TC_002_Surgeries - Capturing Practology surgeries details
-10:00:54.780 [main] INFO  testCases.TC_002_Surgeries - Successfully captured Practology surgeries details
-10:00:55.710 [main] INFO  testCases.TC_002_Surgeries - Capturing Ophtomology surgeries details
-10:00:56.683 [main] INFO  testCases.TC_002_Surgeries - Successfully captured the Ophtomology surgeries details
-10:00:57.607 [main] INFO  testCases.TC_002_Surgeries - Capturing Urology surgeries details
-10:00:58.971 [main] INFO  testCases.TC_002_Surgeries - Successfully captured the Urology surgeries details
-10:00:59.914 [main] INFO  testCases.TC_002_Surgeries - Capturing Cosmetic surgeries details
-10:01:00.979 [main] INFO  testCases.TC_002_Surgeries - Sucessfully captured the Cosmetic surgeries details
-10:01:13.355 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - *** STARTING TC_003_CorporateWellness_InvalidDetails TESTCASE ***
-10:01:13.485 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Clicked on the Corporates link
-10:01:16.869 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Then navigated to wellness plans option
-10:01:17.164 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Entered the name
-10:01:17.524 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Entered the orginization name
-10:01:17.979 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Entered the contact number
-10:01:18.141 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Entered the invalid email address
-10:01:18.692 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Schedule button is disabled
-10:01:19.123 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Selected the "<500" option the from the orginization size dropdown
-10:01:19.556 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Selected the "Taking a demo" option the from the orginization size dropdown
-10:01:19.557 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - Trying to click the schedule button, but it's not possible as the button is disabled
-10:01:24.567 [main] INFO  testCases.TC_003_CorporateWellness_InvalidDetails - *** FINISHED TC_003_CorporateWellness_InvalidDetails TESTCASE ***
-10:02:46.748 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - *** STARTING TC_003_CorporateWellness_InvalidDetails TESTCASE ***
-10:02:47.299 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the Corporates link
-10:02:51.262 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Then navigated to wellness plans option
-10:02:52.345 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the name
-10:02:52.603 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the orginization name
-10:02:52.882 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the contact number
-10:02:53.134 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Entered the valid email address
-10:02:53.806 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "<500" option the from the orginization size dropdown
-10:02:54.317 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Selected the "Taking a demo" option the from the orginization size dropdown
-10:02:54.394 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Schedule button is enabled
-10:02:54.593 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Clicked on the schedule button
-10:03:00.602 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Capturing the details from the thank you modal
-10:03:01.120 [main] INFO  testCases.TC_003_CorporateWellness_ValidDetails - Successfully captured the details from the thank you modal
+10:20:18.522 [main] INFO  testCases.TC_001_SearchingDentists - Searching for dentists in Bangalore
+10:20:18.969 [main] INFO  testCases.TC_001_SearchingDentists - Now in the dentist page
+10:20:18.979 [main] INFO  testCases.TC_001_SearchingDentists - Applying filters
+10:20:39.575 [main] INFO  testCases.TC_001_SearchingDentists - Applied all the required filters
+10:20:40.005 [main] INFO  testCases.TC_001_SearchingDentists - Get the data of top 5 dentists
+10:20:51.776 [main] INFO  testCases.TC_001_SearchingDentists - *** FINISHED TC_001_SearchingDentists TESTCASE ***
+10:22:59.764 [main] INFO  testCases.TC_001_SearchingDentists - *** STARTING TC_001_SearchingDentists TESTCASE ***
+10:23:15.846 [main] INFO  testCases.TC_001_SearchingDentists - Searching for dentists in Bangalore
+10:23:16.133 [main] INFO  testCases.TC_001_SearchingDentists - Now in the dentist page
+10:23:16.141 [main] INFO  testCases.TC_001_SearchingDentists - Applying filters
+10:24:02.442 [main] INFO  testCases.TC_001_SearchingDentists - Applied all the required filters
+10:24:02.735 [main] INFO  testCases.TC_001_SearchingDentists - Get the data of top 5 dentists
+10:24:11.479 [main] INFO  testCases.TC_001_SearchingDentists - *** FINISHED TC_001_SearchingDentists TESTCASE ***
