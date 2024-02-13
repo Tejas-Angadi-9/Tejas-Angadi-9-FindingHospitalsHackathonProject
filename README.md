@@ -2,7 +2,7 @@
 This project utilizes a hybrid framework in Selenium with Java, implementing the Page Object Model (POM), reports, logs, extent report, and loggers.
 
 ## Requirements
-###  1. Search Doctors
+####  1. Search Doctors
 •	Location: Bangalore
 •	Speciality: Dentist
 •	Filters:
@@ -13,12 +13,12 @@ o	Availability
 •	Sorting: Any one method
 •	Display: Fetch and display details of the first 5 doctors.
 
-###  2. Extract Surgeries
+####  2. Extract Surgeries
 •	Navigate to the “surgeries” section.
 •	Extract and store all surgeries in a list.
 •	Display the list in console output.
 
-###  3. Corporate Health and Wellness Plan
+####  3. Corporate Health and Wellness Plan
 •	Under “For Corporate -> Health and Wellness plan”
 o	Fill the form with:
 	Invalid email ID.
