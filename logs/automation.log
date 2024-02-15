@@ -11,3 +11,12 @@
 10:24:02.442 [main] INFO  testCases.TC_001_SearchingDentists - Applied all the required filters
 10:24:02.735 [main] INFO  testCases.TC_001_SearchingDentists - Get the data of top 5 dentists
 10:24:11.479 [main] INFO  testCases.TC_001_SearchingDentists - *** FINISHED TC_001_SearchingDentists TESTCASE ***
+22:40:51.536 [main] INFO  testCases.TC_001_SearchingDentists - *** STARTING TC_001_SearchingDentists TESTCASE ***
+12:15:35.898 [main] INFO  testCases.TC_001_SearchingDentists - *** STARTING TC_001_SearchingDentists TESTCASE ***
+12:15:55.652 [main] INFO  testCases.TC_001_SearchingDentists - *** STARTING TC_001_SearchingDentists TESTCASE ***
+12:16:22.918 [main] INFO  testCases.TC_001_SearchingDentists - Searching for dentists in Bangalore
+12:16:22.936 [main] INFO  testCases.TC_001_SearchingDentists - Now in the dentist page
+12:16:22.944 [main] INFO  testCases.TC_001_SearchingDentists - Applying filters
+12:17:14.139 [main] INFO  testCases.TC_001_SearchingDentists - Applied all the required filters
+12:17:14.341 [main] INFO  testCases.TC_001_SearchingDentists - Get the data of top 5 dentists
+12:17:22.558 [main] INFO  testCases.TC_001_SearchingDentists - *** FINISHED TC_001_SearchingDentists TESTCASE ***
